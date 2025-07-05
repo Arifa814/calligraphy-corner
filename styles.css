@@ -1,15 +1,50 @@
-h3{
-    font-size: large;
-    font-family: 'Courier New', Courier, monospace;
-    background-image: url('calligraphy/calli4.jpg');
-    background-position: center;
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
 }
-img{
-    width: 100px;
-    border: 5px solid aqua;
+header{
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+h1{
+    font-size: 3em;
+    color: #222;
+    margin: 0;
+
 }
 .tagline{
     font-size: 1.3em;
     color: #777;
     font-style: italic;
+    margin-top: 10px;
+}
+.gallery{
+    padding: 40px 20px;
+}
+.gallery-grid{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.gallery-grid img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+
+}
+.about, .contact{
+        padding:30px 20px;
+        background-color: #fafafa;
+        margin-top: 30px;
+}
+h2{
+    color: #444;
+    margin-bottom: 15px;
 }
