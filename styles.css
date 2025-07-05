@@ -1,7 +1,10 @@
 h3{
     font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url('calligraphy/calli4.jpg');
+    background-position: center;
 }
 img{
     width: 100px;
-    border: 10px solid aqua;
+    border: 5px solid aqua;
 }
